@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+:root {
+    --body-background-color: #2b2b2b;
+    --nav-background-color: #2b2b2b;
+    --navbar-brand-color: hsl(0, 0%, 87%);
+    --nav-link-color: hsl(0, 0%, 87%);
+    --mat-symbol-color: hsl(0, 0%, 87%);
+    --navbrand-hover: hsl(0, 0%, 87%);
+    --navlink-hover-color: hsl(0, 0%, 87%);
+    --matsymbol-hover-color: hsl(0, 0%, 87%);
+    --navcon-color: #2b2b2b;
+    /*  */
+    --mt-0-color: hsl(0, 0%, 87%);
+    --mbodyspan-color: hsl(0, 0%, 87%);
+    --mbodyh3-color: hsl(0, 0%, 87%);
+    --prog-background-color: black;
+    --sevice-h1-color: hsl(0, 0%, 87%);
+    --projh1-color: hsl(0, 0%, 87%);
+    --contact-p-color: hsl(0, 0%, 87%);
+    --social-color: hsl(0, 0%, 87%);
+}
+
+.dark {
+    --body-background-color: hsl(0, 0%, 87%);
+    --nav-background-color: hsl(0, 0%, 87%);
+    --navbar-brand-color: hsl(0, 0%, 15%);
+    --nav-link-color: hsl(0, 0%, 40%);
+    --mat-symbol-color: hsl(0, 0%, 40%);
+    --navbrand-hover: hsl(0, 0%, 0%);
+    --navlink-hover-color: hsl(0, 0%, 10%);
+    --matsymbol-hover-color: hsl(0, 0%, 10%);
+    --navcon-color: black;
+    /*  */
+    --mt-0-color: #2b2b2b;
+    --mbodyspan-color: #2b2b2b;
+    --mbodyh3-color: #2b2b2b;
+    --prog-background-color: hsl(0, 0%, 20%);
+    --sevice-h1-color: #2b2b2b;
+    --projh1-color: #2b2b2b;
+    --contact-p-color: #2b2b2b;
+    --social-color: hsl(0, 0%, 87%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--body-background-color);
+}
+
+.navbar {
+    background-color: var(--nav-background-color);
+    z-index: 1;
+    border: none;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 190px;
+    padding-right: 190px;
+    transition: 1s;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navbar-brand-color);
+    margin: 0;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.navbar-brand:hover {
+    color: var(--navbrand-hover);
+}
+
+.nav-pills {
+    gap: 40px;
+    margin: 0;
+}
+
+.nav-link {
+    color: var(--nav-link-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--navlink-hover-color);
+}
+
+.nav-con {
+    background-color: var(--navcon-color);
+    border-radius: 8px;
+    border: none;
+}
+
+.material-symbols-outlined {
+    margin-top: 12px;
+    color: var(--mat-symbol-color);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: var(--matsymbol-hover-color);
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10vh;
+    padding-left: 320px;
+    padding-right: 320px;
+    height: 100vh;
+}
+
+.media img {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.mt-0 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--mt-0-color);
+}
+
+.media-body span {
+    font-weight: 700;
+    text-shadow: -3px -2px #ff583378;
+    color: var(--mbodyspan-color);
+}
+
+.media-body .social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+
+.media-body .social img {
+    width: 33px;
+    background-color: var(--social-color);
+}
+
+.media-body h3 {
+    font-size: 1.6rem;
+    padding-top: 18px;
+    color: var(--mbodyh3-color);
+}
+
+.media2 {
+    display: flex;
+    align-items: center;
+    padding-top: 8vh;
+    padding-left: 320px;
+    height: 80vh;
+}
+
+.media2 img {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.media-body1 {
+    padding-left: 8rem;
+}
+
+.progress-m {
+    width: 35vw;
+    margin-top: 3rem;
+}
+
+.progress {
+    margin-bottom: 17px;
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 15px;
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: var(--prog-background-color);
+    border-radius: 15px;
+    color: hsl(0, 0%, 87%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.row {
+    width: 70vw;
+    z-index: -1;
+}
+
+.col-sm {
+    height: 55vh;
+    margin: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 87%);
+    padding: 20px;
+}
+
+.services {
+    padding-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h1 {
+    font-weight: 750;
+    font-size: 3rem;
+    color: var(--sevice-h1-color);
+}
+
+.col-sm .material-symbols-outlined {
+    font-size: 3rem;
+    color: black;
+    font-weight: 500;
+    padding-top: 70px;
+    filter: drop-shadow(0 0 0.75rem #FF5733);
+    text-shadow: 5px -5px #FF5733;
+}
+
+.col-sm h4 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.col-sm p {
+    font-size: 1.2rem;
+    word-spacing: 3px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.63);
+    padding-top: 20px;
+}
+
+.container-proj {
+    height: 130vh;
+}
+
+.card {
+    z-index: -1;
+    border-radius: 30px;
+}
+
+.row {
+    margin: auto;
+    align-self: center;
+}
+
+.projects {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects h1 {
+    font-weight: 750;
+    font-size: 3rem;
+    color: var(--projh1-color);
+}
+
+.card-body {
+    background-color: hsl(0, 0%, 87%);
+    transition: 0.6s;
+}
+
+.card img {
+    border-radius: 30px 30px 0 0;
+}
+
+.card {
+    background-color: hsl(0, 0%, 87%);
+    border: none;
+}
+
+.card-body {
+    border-radius: 0 0 30px 30px;
+}
+
+.col {
+    padding: 30px;
+    cursor: pointer;
+}
+
+.col:hover .card-body {
+    background-color: white;
+}
+
+.card-body h5 {
+    font-weight: 750;
+}
+
+.card-body p {
+    font-weight: 450;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+#contact {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.mediacon {
+    display: flex;
+    padding: 230px;
+}
+
+form {
+    border-radius: 30px;
+    padding: 10% 6% 10% 6%;
+    background-color: black;
+    cursor: pointer;
+}
+
+form h5 {
+    color: hsl(0, 0%, 87%);
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+form .form-group .form-control {
+    border: 2px solid grey;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+form .form-group ::placeholder {
+    color: grey;
+}
+
+form .form-group textarea {
+    padding-bottom: 80px;
+}
+
+form .btn {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FF5733;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+form .btn:hover {
+    color: white;
+}
+
+#contact .media-body .mt-0 {
+    font-size: 3.43rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#contact .media-body p {
+    color: var(--contact-p-color);
+    font-weight: 450;
+    font-size: 1.2rem;
+}

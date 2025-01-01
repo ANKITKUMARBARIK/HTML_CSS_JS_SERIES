@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form of course</title>
+</head>
+<body>
+    <h1>Examination Form</h1>
+    <form action="post">
+        <div>   <!--div means block element-->
+            <label for="username">Enter Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username" autofocus required>
+        </div>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="Male">  <!--id and for must be same && id sholud be uniquely identified && name sholud be same-->
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+            <label for="subscribe">Subscribe to coders</label>
+        </div>
+
+        <div>
+            <label for="comments">Enter your comments</label>
+            <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="mango">Mango</option>
+                <option value="banana">Banana</option>
+            </select>
+        </div>
+        
+    </form>
+</body>
+</html>

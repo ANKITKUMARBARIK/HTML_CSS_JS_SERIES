@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid blue;
+            /* display: inline; */
+            display: inline-block;
+            /* you can inline the block element like <div> by using inline ..but see u can't apply padding and margin in top...if u can display : inline-block u can apply margin and padding and width both of side */
+            padding: 20px;
+            /*after using display:inline see margin and padding can't apply to the top*/
+            margin: 20px;
+            width: 344px;
+        }
+
+        .box1{
+            /* display: none; */
+            /* visibility: hidden; */
+            /* display: flex; */
+            display: inline-flex;
+            justify-content: center;
+            /* display: grid; */
+            /* display: inline-grid; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">
+        This is a box
+    </div>
+    <div class="box">also a nice box</div>
+
+    <span>I am lazy</span>
+    <span>guy</span>
+</body>
+
+</html>

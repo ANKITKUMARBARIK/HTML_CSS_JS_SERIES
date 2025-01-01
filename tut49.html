@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+            /* background-color: aqua; */
+
+            /* U can use background image in container */
+            /* background: url("https://img.freepik.com/free-photo/blooming-twig-black_23-2147811268.jpg?t=st=1718851994~exp=1718855594~hmac=129e386f0c16a366abecc7abf7e1d395c5bc7b2944434d82eb6bd92a66dde7ee&w=996"); */
+            /* background-position: top right; */
+            /* background-repeat: no-repeat;  --some case image is repeat */
+        }
+
+        img {
+            width: 600px;
+            height: 600px;
+            object-fit: cover;
+            /*object fit of width:600 and height:600 this property only use child not parent..but some crop images show*/
+            /* object-fit: fill; --attach aspect child width and height  */
+            /* object-fit: contain; full image show */
+            object-position: top center;
+            /* object-position: top right; */
+            /* object-position: top bottom; */
+            /* object-position: bottom center; */
+            /* object-position: 20px 40px; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://imgs.search.brave.com/cym4ToeD5jUHnZT8wasE6z2DuGoDdwN3ik8Ibandq1M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YWJsb2cuY2RucGsu/bmV0L3NpdGVzLzkv/MjAyMi8wNi9Xb3Js/ZC1QcmVzcy1QaG90/by1Db3Zlci5wbmc" alt="Image">
+    </div>
+</body>
+
+</html>

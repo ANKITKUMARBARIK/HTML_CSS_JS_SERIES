@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" name="" id="pizza">
+        <label for="">Pizza 350</label><br>
+        <input type="checkbox" name="" id="coffee">
+        <label for="">Coffee 100</label><br>
+        <input type="checkbox" name="" id="coldrink">
+        <label for="">Coldrink 50</label><br>
+        <input type="checkbox" name="" id="burger">
+        <label for="">Burger 250</label><br>
+        <button id="order">Order</button>
+        <p id="text"></p>
+        Num1 : <input type="text" id="num1"><br>
+        Num2 : <input type="text" id="num2"><br>
+        <button id="butt">SUM</button>
+    </div>
+
+    <!-- JS -->
+    <script>
+        let a = document.getElementById("pizza")
+        let b = document.getElementById("coffee")
+        let c = document.getElementById("coldrink")
+        let d = document.getElementById("burger")
+        let butt = document.getElementById("order")
+        let text = document.getElementById("text")
+        let temp1 = 0;
+        let temp2 = 0;
+        let temp3 = 0;
+        let temp4 = 0;
+        a.addEventListener("click", () => {
+            temp1 = 350
+        })
+
+        b.addEventListener("click", () => {
+            temp2 = 100
+        })
+
+        c.addEventListener("click", () => {
+            temp3 = 50
+        })
+
+        d.addEventListene("click", () => {
+            temp4 = 250
+        })
+
+        butt.addEventListener("click", () => {
+            let sum = temp1 + temp2 + temp3 + temp4
+            text.innerHTML = `Total order price : ${sum}`
+        })
+
+
+
+
+        //Sum of two numbers... 
+        let tap = document.getElementById("butt")
+        tap.addEventListener("click", () => {
+            let x = document.getElementById("num1").value
+            let y = document.getElementById("num2").value
+            let sum = Number(x) + Number(y)
+            alert(`Sum : ${sum}`)
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            color: yellow;
+            padding: 10px;
+            border: 2px solid blue;
+            margin: 10px;
+        }
+        .box2{
+            color: red;
+            padding: 10px;
+            border: 2px solid black;
+            margin: 10px;
+            height: 100px;
+            box-sizing: border-box;  /* content + border + padding = height 100px only ...if u didn't use then only content has  height 100px and another elemnets adds..externally..*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1">Box1</div>
+    <div class="box box2">Box2</div>
+
+    <!--Margin collapse as a diagram:---->
+    <img width="500px" src="https://i.postimg.cc/gjcn38RQ/margin-collapse-2.png" alt="Margin Collapse">
+</body>
+</html>

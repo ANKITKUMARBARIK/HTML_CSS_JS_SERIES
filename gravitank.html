@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .form-element{
+            display: flex;
+            gap: 3rem;
+            margin: 2rem;
+        }
+        .label{
+            width: 30%;
+        }
+        .input{
+            width: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="post">
+
+        <div class="container">
+            <!-- label1 -->
+            <div class="form-element">
+                <div class="label"><label for="email">Email</label></div>
+                <div class="input"><input type="email" name="email" id="email"></div>
+            </div>
+            <!-- label2 -->
+            <div class="form-element">
+                <div class="label"><label for="password">Password</label></div>
+                <div class="input"><input type="password" name="password" id="password"></div>
+            </div>
+
+            <!-- label3 -->
+            <div class="form-element">
+                <div class="label"><label for="text">City</label></div>
+                <div class="input"><input type="text" name="text" id="text"></div>
+            </div>
+
+            <!-- label4 -->
+            <div class="form-element">
+                <div class="label"><label for="color">Favourite Color</label></div>
+                <div class="input"><input type="color" name="color" id="color"></div>
+            </div>
+
+            <!-- label5 -->
+            <div class="form-element">
+                <div class="label"><label for="dob">Date of Birth</label></div>
+                <div class="input"><input type="date" name="dob" id="dob"></div>
+            </div>
+
+            <!-- label6 -->
+            <div class="form-element">
+                <div class="label"><label for="dobt">Date & Time of Journey</label></div>
+                <div class="input"><input type="datetime-local" name="dobt" id="dobt"></div>
+            </div>
+
+            <!-- label7 -->
+            <div class="form-element">
+                <div class="label"><label for="toj">Time of Journey</label></div>
+                <div class="input"><input type="time" name="toj" id="toj"></div>
+            </div>
+
+            <!-- label8 -->
+            <div class="form-element">
+                <div class="label"><label for="moj">Month of Journey</label></div>
+                <div class="input"><input type="month" name="moj" id="moj"></div>
+            </div>
+
+            <!-- label9 -->
+            <div class="form-element">
+                <div class="label"><label for="woj">Week of Journey</label></div>
+                <div class="input"><input type="week" name="woj" id="woj"></div>
+            </div>
+
+            <!-- label10 -->
+            <div class="form-element">
+                <div class="label"><label for="pp">Profile Picture</label></div>
+                <div class="input"><input type="file" name="pp" id="pp"></div>
+            </div>
+
+            <!-- label11 -->
+            <div class="form-element">
+                <div class="label"><label for="pu">Portfolio Url</label></div>
+                <div class="input"><input type="url" name="pu" id="pu"></div>
+            </div>
+
+            <!-- label12 -->
+            <div class="form-element">
+                <div class="label"><label for="amt">Amount</label></div>
+                <div class="input"><input type="number" name="amt" id="amt"></div>
+            </div>
+
+            <!-- label13 -->
+            <div class="form-element">
+                <div class="label"><label for="wr">Website Rating</label></div>
+                <div class="input"><input type="range" name="wr" id="wr"></div>
+            </div>
+
+            <!-- label14 -->
+            <div class="form-element">
+                <div class="label"><label for="gender">Gender</label></div>
+                <div class="input">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="others">
+                    <label for="others">Others</label>
+                </div>
+            </div>
+
+            <!-- label15 -->
+            <div class="form-element">
+                <div class="input"><input type="checkbox" name="check" id="check"></div>
+                <div class="label"><label for="check">Receive News Letters</label></div>
+            </div>
+
+            <!-- label16 -->
+            <div class="form-element">
+                <div class="label"><label for=""></label></div>
+                <div class="input"><input type="reset" class="btn reset-button" value="Clear"></div>
+                <input type="button" value="">
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="css/6_form.css" rel="stylesheet">
+    <style>
+        body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: indigo;
+  height: 60px;
+  position: sticky;
+  top: 0;
+}
+
+#navbar .navbar-brand {
+  width: 30%;
+  /* background-color: blue; */
+  float: left;
+  padding-top: 16px;
+  padding-left: 15px;
+  color: #ecebeb;
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  box-shadow: 2px 2px 3px 3px #c7bbbb;
+  margin: 20px;
+}
+.card-body {
+  padding: 18px;
+}
+
+.card-header {
+  background-color: #9b9696;
+  padding: 10px 18px;
+  color: #ffffff;
+}
+.card-footer {
+  padding: 10px;
+  text-align: right;
+  background-color: #d1cdcd;
+}
+
+/* form */
+.signup-card {
+
+
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.form-element {
+  height: 35px;
+  /* background-color: #c9c1c1; */
+  margin-bottom: 20px;
+}
+
+.form-label {
+  width: 30%;
+  float: left;
+  font-size: 17px;
+}
+
+.form-control-container {
+  width: 70%;
+  float: left;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #5e9adf;
+  transition: box-shadow 0.3s;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 3px 2px #2b77be;
+  outline: none;
+}
+
+.btn {
+  background-color: #3c84be;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 1px #bdbbbb;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border: 1px solid #ebe8e8;
+  margin: 2px 6px;
+}
+
+.btn:hover {
+  background-color: #1869ac;
+  box-shadow: 0px 0px 3px 3px #9e9b9b;
+}
+
+.reset-button {
+  background-color: #ee3c3c;
+}
+
+.reset-button:hover {
+  background-color: #c72727;
+}
+    </style>
+</head>
+
+<body>
+    <!-- navbar starts here -->
+    <div id="navbar">
+        <div class="navbar-brand"> M.L. Parmar college of Computer Sci. & IT </div>
+    </div>
+    <!-- navbar ends here -->
+
+    <form>
+        <div class="card signup-card">
+            <div class="card-header">Sign Up</div>
+            <!-- card body starts -->
+            <div class="card-body">
+                <div class="form-element">
+                    <div class="form-label"><label for="email">Email</label></div>
+                    <div class="form-control-container">
+                        <input type="email" class="form-control" id="email" name="email" />
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label"><label for="password">Password</label></div>
+                    <div class="form-control-container">
+                        <input type="password" class="form-control" id="password" name="password">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label"><label for="city">City</label></div>
+                    <div class="form-control-container">
+                        <input type="text" class="form-control" id="city" name="city">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="favouritecolor">Favourite Color</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="color">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="dateofbirth">Date of Birth</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="date" class="form-control" id="dateofbirth" name="dateofbirth">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="dateandtimeofjourney">Date & Time of Journey</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="datetime-local" class="form-control" id="dateandtimeofjourney"
+                            name="dateandtimeofjourney">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="timeofjourney">Time of Journey</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="time" class="form-control" id="timeofjourney" name="timeofjourney">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="monthofjourney">Month of Journey</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="month" class="form-control" id="monthofjourney" name="monthofjourney">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="weekofjourney">Week of Journey</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="week" class="form-control" id="weekofjourney" name="weekofjourney">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="profilepic">Profile Picture</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="file" class="form-control" id="profilepic" name="profilepic">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="portfoliourl">Portfolio Url</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="url" class="form-control" id="portfoliourl" name="portfoliourl">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="amount">Amount</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="number" class="form-control" id="amount" name="amount">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="websiterating">Website Rating</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="range" min="1" max="5" class="form-control" id="websiterating"
+                            name="websiterating">
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        <label for="gender">Gender</label>
+                    </div>
+                    <div class="form-control-container">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="others" name="gender">
+                        <label for="others">Others</label>
+                    </div>
+                </div>
+
+                <div class="form-element">
+                    <div class="form-label">
+                        &nbsp;
+                    </div>
+                    <div class="form-control-container">
+                        <input type="checkbox" id="receivenewsletters" name="receivenewsletters">
+                        <label for="receivenewsletters">Receive News Letters</label>
+                    </div>
+                </div>
+
+            </div>
+            <!-- card body ends -->
+
+            <div class="card-footer">
+                <input type="hidden" name="usertype" value="customer">
+                <button class="btn">
+                    <img src="img/ok.png" width="20px"> Submit
+                </button>
+                <input type="reset" class="btn reset-button" value="Clear">
+
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

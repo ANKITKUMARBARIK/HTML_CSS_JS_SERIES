@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box; /*--hide the scroll bar*/
+            border: 2px solid black;
+            /* width: 200px; */
+            width: 100vw; /* viewport-width -- responsive any device */
+            /* height: 10vh; */
+            /* margin: auto; -- automatically set light-right margin in only block element like <div> not <span> */
+            background-color: aqua;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 100vw;
+            /* height: 80vh; */
+            /* min-height: 80vh; */
+            /* margin: auto; */
+            font-size: 18px;  /* By default font-size = 16px */
+            /* font-size: 2em; */
+            /* font-size: 2rem; */
+            background-color: aqua;
+        }
+        .container p{
+            font-size: 2em; /* em means double size ..16x2 ..if u have 2em ,2em = 248px */
+            /* font-size: 2rem; /* only one time double 2rem = 16x2 = 32 */
+            width: 50%;
+        }
+        /* html{
+            font-size: 1rem;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea sint magni ipsum nostrum beatae quae veniam iste, explicabo expedita maxime, suscipit minima praesentium. Vero recusandae minima ducimus, animi eius laudantium error temporibus repellendus sunt sint. Non veniam assumenda repellat perspiciatis dolor ipsa suscipit repellendus possimus nam iure corrupti, dolores obcaecati neque voluptate est tenetur dolorem.</p>
+    </div>
+</body>
+</html>

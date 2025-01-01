@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        h1{
+            color: yellow;
+        }
+        .yell{
+            color: red !important; /* !important is top role man of the css color */
+        }
+        .bluee{
+            color: blue;
+        }
+        #fillow{
+            color: cadetblue;  
+        }
+        .redd{
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="color: aqua;" class="yell redd bluee" id="fillow">CSS Specificity</h1>  <!--!important is top role man of the css color && Inline Style - style__more first specificity && ID Selector - id__second specificity && Element Selector - <p>,<a>,<div> __third specificity && Universal Selector - * __fourth specificity--> 
+        <ol>
+            <li>Inline Style</li>
+            <li>ID Selector</li>
+            <li>Class or Attribute Selector</li>
+            <li>Element Selector</li>
+            <li>Universal Selector</li>
+        </ol>
+    </div>
+</body>
+</html>

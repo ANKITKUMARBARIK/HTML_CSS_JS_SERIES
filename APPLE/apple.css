@@ -1,0 +1,1461 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+}
+
+#page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#page .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+    /* background-color: #000; */
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+#page .nav .button {
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+}
+
+#page .nav h3 {
+    font-weight: 400;
+}
+
+#page video {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page-bottom {
+    height: 20%;
+    width: 25%;
+    /* background-color: green; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-bottom h3 {
+    color: #dadada93;
+    margin-bottom: 1vw;
+}
+
+
+
+/* PAGE1 */
+#page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1 h1 {
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+
+
+
+
+/* PAGE2 */
+#page2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page2 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2 h1 {
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+
+
+/* PAGE3 */
+#page3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page3 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page3 h1 {
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+
+
+/* PAGE4 */
+#page4 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page4 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page4 h1 {
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+
+
+
+
+/* PAGE5-UPPER */
+#page5-upper {
+    height: 25%;
+    width: 35%;
+    /* background-color: green; */
+    position: absolute;
+    z-index: 9;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page5-upper img {
+    position: absolute;
+    padding-bottom: 100px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+#page5-upper-inner {
+    position: absolute;
+    bottom: 0%;
+    height: 38%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    color: #ff5a00;
+}
+
+#page5-upper-inner h3 {
+    font-weight: 500;
+}
+
+
+/* PAGE5 */
+#page5 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#page5 img {
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page5 button {
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    border: 3px solid #000;
+    font-weight: 550;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+/* page6 */
+#page6 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page6 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page6-upper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+/* PAGE7 */
+#page7 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left7 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left7 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 17%;
+}
+
+#right7 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right7 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+}
+
+#right7 button {
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    background-color: #FF6A19;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+
+
+
+
+
+
+
+/* page8 */
+#page8 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page8 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page8-upper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+/* PAGE9 */
+#page9 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left9 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left9 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 19%;
+}
+
+#right9 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right9 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+}
+
+#right9 button {
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    background-color: #FF6A19;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* page10 */
+#page10 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page10 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page10-upper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+/* PAGE11 */
+#page11 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left11 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left11 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16%;
+}
+
+#right11 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right11 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+}
+
+#right11 button {
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    background-color: #FF6A19;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* page12 */
+#page12 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page12 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page12-upper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+/* PAGE13 */
+#page13 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left13 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left13 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16%;
+}
+
+#right13 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right13 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+}
+
+#right13 button {
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    background-color: #FF6A19;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-bottom: 55px;
+}
+
+
+
+
+
+
+
+
+/* page14 */
+#page14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    background-color: #F5F5F7;
+}
+
+#page14 h3 {
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+
+#page14 h1 {
+    margin-bottom: 2.8vw;
+    font-size: 5vw;
+}
+
+#page14 p {
+    font-size: 1.7vw;
+    width: 80%;
+    font-weight: 500;
+    color: #86868B;
+}
+
+
+
+
+
+
+
+
+
+/* page15  CANVAS*/
+#page15 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page15 canvas {
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 99;
+}
+
+
+
+
+
+
+
+/* More Pages */
+/* PAGE16 */
+#page16 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page16 h1 {
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #86868B;
+    z-index: 99;
+    position: absolute;
+}
+
+#page16 h1 span {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/* PAGE17 */
+#page17 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page17 h1 {
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #86868B;
+    z-index: 99;
+    position: absolute;
+}
+
+#page17 h1 span {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/* PAGE18 */
+#page18 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page18 h1 {
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #86868B;
+    z-index: 99;
+    position: absolute;
+}
+
+#page18 h1 span {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/* PAGE19 */
+#page19 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page19 h1 {
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #86868B;
+    z-index: 99;
+    position: absolute;
+}
+
+#page19 h1 span {
+    color: #000;
+}
+
+
+
+
+
+
+
+/* PAGE20 */
+#page20 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page20 h1 {
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #86868B;
+    z-index: 99;
+    position: absolute;
+}
+
+#page20 h1 span {
+    color: #000;
+}
+
+
+
+
+
+
+
+/* PAGE21 */
+#page21 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+
+#page21 h1 {
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #86868B;
+    z-index: 99;
+    position: absolute;
+}
+
+#page21 h1 span {
+    color: #000;
+}
+
+
+
+
+
+
+/* page22 */
+#page22 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#left22 {
+    height: 90%;
+    width: 45%;
+    background-image: url('https://www.apple.com/v/apple-vision-pro/e/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#right22 {
+    height: 90%;
+    width: 45%;
+    background-image: url('https://www.apple.com/v/apple-vision-pro/e/images/overview/design/glass_side__gm4agomrwl2e_large.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+
+/* page23 */
+#page23 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center-page23 {
+    height: 90%;
+    width: 95%;
+    position: relative;
+}
+
+#center-page23 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* page24 */
+#page24 {
+    position: relative;
+    height: 180vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page24 h2 {
+    margin-top: 100px;
+    position: absolute;
+    width: 45%;
+    text-align: center;
+    color: #86868B;
+    font-weight: 500;
+    top: 5%;
+}
+
+#page24 h2 span {
+    color: #000;
+}
+
+#page24 img {
+    width: 60%;
+    position: absolute;
+    bottom: 7%;
+}
+
+#page24 button {
+    position: absolute;
+    bottom: 15%;
+    padding: 20px 40px;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: #FF6A19;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+/* page25 */
+#page25 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page25 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page25-upper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* PAGE26 */
+#page26 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left26 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left26 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16%;
+}
+
+#right26 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right26 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+    margin-bottom: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+/* page27 */
+#page27 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#left27 {
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/scaling_ui__gosi0305um2y_large.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#right27 {
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/spatial_interaction__br11mf88bzxy_large.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+/* PAGE28 */
+#page28 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left28 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left28 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16%;
+}
+
+#right28 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right28 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+    margin-bottom: 180px;
+}
+
+
+
+
+
+
+
+/* page29 */
+#page29 img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/* PAGE30 */
+#page30 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left30 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left30 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16%;
+}
+
+#right30 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right30 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+    margin-bottom: 130px;
+}
+
+
+
+
+
+
+
+/* page31 */
+#page31 img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/* PAGE32 */
+#page32 {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#left32 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#left32 h1 {
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16%;
+}
+
+#right32 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    padding-left: 1vw;
+}
+
+#right32 h3 {
+    font-size: 1.6vw;
+    width: 90%;
+    color: #86868b;
+    margin-bottom: 100px;
+}
+
+#right32 button {
+    padding: 15px 40px;
+    border: none;
+    font-weight: 400;
+    background-color: #FF6A19;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* page33 */
+#page33 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+}
+
+#page33 canvas {
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* page34 */
+#page34 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#page34 h5 {
+    margin-top: 30px;
+    width: 35%;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+
+
+/* page35 */
+#page35 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#page35 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#center-page35 {
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    /* background-color: blue; */
+    bottom: 23%;
+    right: 5%;
+    color: #fff;
+    font-size: 1.3vw;
+}
+
+#center-page35 h1 {
+    margin-bottom: 1.7vw;
+}
+
+
+
+
+
+
+
+
+
+/* #page36 */
+#page36 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#page36 #troff {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50%;
+    z-index: 9;
+}
+
+#page36 #tron {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page37 */
+#page37 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#page37 #snroff {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50%;
+    z-index: 9;
+}
+
+#page37 #snron {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* page38 */
+#page38 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#page38 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+}

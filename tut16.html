@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Class Selectors */
+        .red {
+            background-color: aqua;
+        }
+
+        /* Id Selectors */
+        #pink {
+            background-color: pink;
+        }
+
+        /* Child Selectors */
+        div>p {
+            background-color: blueviolet;
+            color: white;
+        }
+
+        /* Descendant Selectors */
+        div p {
+            color: brown;
+        }
+
+        /* Universal Selectors */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selectors */
+        a:visited{
+            color: violet;
+        }
+        a:link{
+            color: forestgreen;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+
+        /* First-child pseudo Selectors */
+        p:first-child{
+            background-color: slategrey;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Class Selectors -->
+    <div class="red">Hey Boy ..how is it ?</div>
+
+    <!-- Id Selectors -->
+    <div id="pink">It's good...</div>
+
+    <!-- Child Selectors -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptas nam hic in officiis ut sit quisquam
+            quidem sint sequi voluptatem numquam eum? Facere eum mollitia expedita voluptates fugit! Exercitationem.</p>
+    </div>
+
+    <!-- Descendant Selectors -->
+    <div>
+        <span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates veritatis saepe provident debitis.
+            </p>
+        </span>
+    </div>
+
+    <!-- Pseudo Selectors -->
+    <a target="_blank" href="https://www.google.com">Open Google</a>
+    <a target="_blank" href="https://www.twitter.com">Open Twitter</a>
+
+    <!-- First-child pseudo Selectors -->
+    <main class="one">
+        <p>I am first p</p>
+        <p>I am second p</p>
+    </main>
+</body>
+
+</html>

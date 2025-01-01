@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+body{
+    background-color: #1b1b1d;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar .menu-links a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;               
+}
+
+.navbar .menu-links a:hover{
+    color: #19a463;
+}
+
+.navbar .menu-links .language-item a{
+     display: flex;
+     align-items: center;
+     gap: 8px;
+}
+
+.navbar .menu-links .language-item span{
+    font-size: 1.3rem;
+}
+
+.navbar .menu-links .join-btn a{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 8px 15px;
+    transition: 0.2s ease;
+}
+
+.navbar .menu-links .join-btn a:hover{
+    color: #fff;
+    background-color: #19a463;
+    border-color: transparent;
+}
+
+.hero-section{
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/1X5jGrJp/hero-img.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero-section .content{
+    max-width: 1400px;
+    margin: 0 auto 40px;
+    width: 100%;
+}
+
+.hero-section .content h1{
+    color: #fff;
+    font-size: 3rem;
+    max-width: 630px;
+}
+
+.hero-section .search-form{
+    display: flex;
+    height: 48px;
+    max-width: 630px;
+    margin-top: 30px;
+}
+
+.hero-section .search-form input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: #fff;
+    font-size: 1rem;
+    padding: 0 15px;
+    border-radius: 4px 0 0 4px;
+}
+
+.hero-section .search-form button{
+    width: 60px;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    background: #1dbf73;
+    transition: background 0.2s ease;
+}
+
+.hero-section .search-form button:hover{
+    background: #19a463;
+}
+
+.hero-section .popular-tags{
+    display: flex;
+    color: #fff;
+    gap: 24px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.hero-section .popular-tags .tags{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.hero-section .tags li a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 4px 12px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.hero-section .tags li a:hover{
+    color: #1b1b1d;
+    background: #fff;
+}
+
+@media screen and (max-width: 1180px) {
+    *{
+        overflow-x: hidden;
+    }
+    header{
+        position: relative;
+        overflow-x: hidden;
+    }
+    header .navbar{
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    .navbar .logo{
+        align-self: flex-start;
+        overflow-x: hidden;
+    }
+    .navbar .menu-links{
+        display: flex;
+        flex-direction: column;
+        min-height: 10px;
+        gap: 50px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .navbar .menu-links li{
+        font-size: 1.4rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .navbar .menu-links li a{
+        border: 1px solid white;
+        padding: 8px;
+        overflow-x: hidden;
+    }
+    .navbar .menu-links .language-item span{
+        overflow-y: hidden;
+    }
+    .hero-section{
+        position: relative;
+        height: 140vh;
+        background-position: 70%;
+        background-size: 500%;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+    .hero-section .content{ 
+        margin-top: 100vh;
+        top: 140vh;
+        min-width: 50vw;
+        overflow-x: hidden;
+    }
+    .hero-section .content h1{
+        font-size: 2rem;
+        overflow-x: hidden;
+    }
+    .hero-section .content form{
+        margin-right: 10px;
+        margin-left: 10px;
+        overflow-x: hidden;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .hero-section .content .popular-tags{
+        gap: 20px;
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin: 10px;
+        overflow-x: hidden;
+    }
+    .hero-section .content .popular-tags .tags{
+        gap: 10px;
+        align-self: center;
+        overflow-x: hidden;
+    }
+    .hero-section .content .popular-tags .tags li{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .hero-section .content .popular-tags .tags li a{
+        padding: 3px;
+        border: none;
+        overflow-x: hidden;
+    } 
+}
